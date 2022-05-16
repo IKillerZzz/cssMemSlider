@@ -107,6 +107,60 @@ input[type="radio"] {
   justify-content: space-between;
 }
 
+.description {
+  max-width: 90%;
+  height: 1.5rem;
+  font-size: 1.5rem;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.slide-description {
+  line-height: 120%;
+  width: 100%;
+}
+
+.one-active:checked~.footer .description .slide-description:nth-child(1) {
+  visibility: visible;
+  transition: 0.5s;
+}
+
+.two-active:checked~.footer .description .slide-description:nth-child(2) {
+  visibility: visible;
+  margin-top: -1.7rem;
+  transition: 0.5s;
+}
+
+.three-active:checked~.footer .description .slide-description:nth-child(3) {
+  visibility: visible;
+  margin-top: -3.5rem;
+  transition: 0.5s;
+}
+
+.four-active:checked~.footer .description .slide-description:nth-child(4) {
+  visibility: visible;
+  margin-top: -5.5rem;
+  transition: 0.5s;
+}
+
+.five-active:checked~.footer .description .slide-description:nth-child(5) {
+  visibility: visible;
+  margin-top: -7.3rem;
+  transition: 0.5s;
+}
+
+.six-active:checked~.footer .description .slide-description:nth-child(6) {
+  visibility: visible;
+  margin-top: -9.12rem;
+  transition: 0.5s;
+}
+
+.seven-active:checked~.footer .description .slide-description:nth-child(7) {
+  visibility: visible;
+  margin-top: -10.8rem;
+  transition: 0.5s;
+}
+
 .buttons {
   display: flex;
   gap: 0.8rem;
